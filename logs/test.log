@@ -1,0 +1,355 @@
+2021-11-07 17:39:39.604 [main] INFO  Pages.HomePage - HomePage : etstur.com opened
+2021-11-07 17:39:40.594 [main] INFO  Pages.HomePage - HomePage : hotel button click
+2021-11-07 17:39:41.531 [main] INFO  Pages.HotelsPage - HotelsPage : typed-> Antalya selected-> Antalya Otelleri
+2021-11-07 17:39:41.815 [main] INFO  Pages.HotelsPage - HotelsPage : clicked date field
+2021-11-07 17:39:41.856 [main] INFO  Pages.HotelsPage - HotelsPage : Last Date Of First Month(Left Column): 30
+2021-11-07 17:39:41.889 [main] INFO  Pages.HotelsPage - HotelsPage : Last Date Of Second Month(Right Column): 31
+2021-11-07 17:39:41.899 [main] INFO  Pages.HotelsPage - HotelsPage : Todays Date: 7
+2021-11-07 17:39:41.899 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-in date: 9
+2021-11-07 17:39:42.159 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-in date selected
+2021-11-07 17:39:42.159 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-out date from left column: 12
+2021-11-07 17:39:42.411 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-out date selected from left column: 12
+2021-11-07 17:39:42.412 [main] INFO  Pages.HotelsPage - HotelsPage : User Adult Count: 2 User Child Count: 2
+2021-11-07 17:39:42.673 [main] INFO  Pages.HotelsPage - HotelsPage : Clicked guests field
+2021-11-07 17:39:42.710 [main] INFO  Pages.HotelsPage - HotelsPage : Default number of adults selected : 2
+2021-11-07 17:39:42.737 [main] INFO  Pages.HotelsPage - HotelsPage : Default number of child selected : 0
+2021-11-07 17:39:42.737 [main] INFO  Pages.HotelsPage - HotelsPage : Waiting for adult error message to be invisible 
+2021-11-07 17:39:42.775 [main] INFO  Pages.HotelsPage - HotelsPage : Adult error message is invisible 
+2021-11-07 17:39:43.031 [main] INFO  Pages.HotelsPage - HotelsPage : Child Guest Plus Button Clicked 
+2021-11-07 17:39:43.032 [main] INFO  Pages.HotelsPage - HotelsPage : Waiting for adult error message to be invisible 
+2021-11-07 17:39:43.078 [main] INFO  Pages.HotelsPage - HotelsPage : Adult error message is invisible 
+2021-11-07 17:39:43.331 [main] INFO  Pages.HotelsPage - HotelsPage : Child Guest Plus Button Clicked 
+2021-11-07 17:39:43.332 [main] INFO  Pages.HotelsPage - HotelsPage : Generating random ages for child/children
+2021-11-07 17:39:43.381 [main] INFO  Pages.HotelsPage - HotelsPage : Age generated : 14
+2021-11-07 17:39:43.654 [main] INFO  Pages.HotelsPage - HotelsPage : Age generated : 12
+2021-11-07 17:39:45.299 [main] INFO  Pages.HotelsPage - HotelsPage : Search hotel button clicked
+2021-11-07 17:39:46.684 [main] INFO  Pages.ResultsPage - ResultsPage : clicked number 1 hotel
+2021-11-07 17:39:48.562 [main] INFO  Pages.HotelDetailsPage - HotelDetailsPage : number 1 room selected
+2021-11-07 17:39:50.232 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage : 1 name field clicked
+2021-11-07 17:39:50.418 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Birthdate generated for adult : 07101991
+2021-11-07 17:39:50.761 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Gender selected for number 1 guest : Kad覺n
+2021-11-07 17:39:51.041 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Not TC citizen checked for number 1 guest
+2021-11-07 17:39:51.520 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Passport typed as 1 guest
+2021-11-07 17:39:52.361 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage : 2 name field clicked
+2021-11-07 17:39:52.512 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Birthdate generated for adult : 07101991
+2021-11-07 17:39:52.862 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Gender selected for number 2 guest : Kad覺n
+2021-11-07 17:39:53.140 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Not TC citizen checked for number 2 guest
+2021-11-07 17:39:53.581 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Passport typed as 2 guest
+2021-11-07 17:39:54.429 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage : 3 name field clicked
+2021-11-07 17:39:54.526 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Birthdate generated for children : 07102007
+2021-11-07 17:39:54.929 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Gender selected for number 3 guest : Kad覺n
+2021-11-07 17:39:55.197 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Not TC citizen checked for number 3 guest
+2021-11-07 17:39:55.652 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Passport typed as 3 guest
+2021-11-07 17:39:56.492 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage : 4 name field clicked
+2021-11-07 17:39:56.586 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Birthdate generated for children : 07102009
+2021-11-07 17:39:57.010 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Gender selected for number 4 guest : Kad覺n
+2021-11-07 17:39:57.288 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Not TC citizen checked for number 4 guest
+2021-11-07 17:39:57.770 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Passport typed as 4 guest
+2021-11-07 17:39:57.961 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Proceed payment button clicked
+2021-11-07 17:39:59.670 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Card Owner Name Typed : isim soyisim
+2021-11-07 17:39:59.894 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Card Number Typed : 1234123412341234
+2021-11-07 17:39:59.894 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random year generated for card  : 22
+2021-11-07 17:39:59.894 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random month generated for card  : 09
+2021-11-07 17:40:00.247 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random Month selected
+2021-11-07 17:40:00.572 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random Year selected
+2021-11-07 17:40:00.572 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random CVC generated for card  : 757
+2021-11-07 17:40:00.620 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random CVC typed
+2021-11-07 17:40:38.296 [main] INFO  Pages.HomePage - HomePage : etstur.com opened
+2021-11-07 17:40:39.232 [main] INFO  Pages.HomePage - HomePage : hotel button click
+2021-11-07 17:40:40.143 [main] INFO  Pages.HotelsPage - HotelsPage : typed-> Antalya selected-> Antalya Otelleri
+2021-11-07 17:40:40.400 [main] INFO  Pages.HotelsPage - HotelsPage : clicked date field
+2021-11-07 17:40:40.449 [main] INFO  Pages.HotelsPage - HotelsPage : Last Date Of First Month(Left Column): 30
+2021-11-07 17:40:40.481 [main] INFO  Pages.HotelsPage - HotelsPage : Last Date Of Second Month(Right Column): 31
+2021-11-07 17:40:40.493 [main] INFO  Pages.HotelsPage - HotelsPage : Todays Date: 7
+2021-11-07 17:40:40.493 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-in date: 7
+2021-11-07 17:40:40.743 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-in date selected
+2021-11-07 17:40:40.743 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-out date from left column: 12
+2021-11-07 17:40:40.997 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-out date selected from left column: 12
+2021-11-07 17:40:40.998 [main] INFO  Pages.HotelsPage - HotelsPage : User Adult Count: 2 User Child Count: 2
+2021-11-07 17:40:41.250 [main] INFO  Pages.HotelsPage - HotelsPage : Clicked guests field
+2021-11-07 17:40:41.275 [main] INFO  Pages.HotelsPage - HotelsPage : Default number of adults selected : 2
+2021-11-07 17:40:41.306 [main] INFO  Pages.HotelsPage - HotelsPage : Default number of child selected : 0
+2021-11-07 17:40:41.306 [main] INFO  Pages.HotelsPage - HotelsPage : Waiting for adult error message to be invisible 
+2021-11-07 17:40:41.342 [main] INFO  Pages.HotelsPage - HotelsPage : Adult error message is invisible 
+2021-11-07 17:40:41.588 [main] INFO  Pages.HotelsPage - HotelsPage : Child Guest Plus Button Clicked 
+2021-11-07 17:40:41.588 [main] INFO  Pages.HotelsPage - HotelsPage : Waiting for adult error message to be invisible 
+2021-11-07 17:40:41.635 [main] INFO  Pages.HotelsPage - HotelsPage : Adult error message is invisible 
+2021-11-07 17:40:41.888 [main] INFO  Pages.HotelsPage - HotelsPage : Child Guest Plus Button Clicked 
+2021-11-07 17:40:41.889 [main] INFO  Pages.HotelsPage - HotelsPage : Generating random ages for child/children
+2021-11-07 17:40:41.926 [main] INFO  Pages.HotelsPage - HotelsPage : Age generated : 14
+2021-11-07 17:40:42.190 [main] INFO  Pages.HotelsPage - HotelsPage : Age generated : 15
+2021-11-07 17:40:43.883 [main] INFO  Pages.HotelsPage - HotelsPage : Search hotel button clicked
+2021-11-07 17:40:45.827 [main] INFO  Pages.ResultsPage - ResultsPage : clicked number 1 hotel
+2021-11-07 17:40:47.428 [main] INFO  Pages.HotelDetailsPage - HotelDetailsPage : number 1 room selected
+2021-11-07 17:40:48.682 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage : 1 name field clicked
+2021-11-07 17:40:48.858 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Birthdate generated for adult : 07101991
+2021-11-07 17:40:49.205 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Gender selected for number 1 guest : Kad覺n
+2021-11-07 17:40:49.465 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Not TC citizen checked for number 1 guest
+2021-11-07 17:40:49.908 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Passport typed as 1 guest
+2021-11-07 17:40:50.769 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage : 2 name field clicked
+2021-11-07 17:40:50.913 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Birthdate generated for adult : 07101991
+2021-11-07 17:40:51.232 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Gender selected for number 2 guest : Kad覺n
+2021-11-07 17:40:51.486 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Not TC citizen checked for number 2 guest
+2021-11-07 17:40:51.907 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Passport typed as 2 guest
+2021-11-07 17:40:52.748 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage : 3 name field clicked
+2021-11-07 17:40:52.846 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Birthdate generated for children : 07102007
+2021-11-07 17:40:53.232 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Gender selected for number 3 guest : Kad覺n
+2021-11-07 17:40:53.486 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Not TC citizen checked for number 3 guest
+2021-11-07 17:40:53.901 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Passport typed as 3 guest
+2021-11-07 17:40:54.749 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage : 4 name field clicked
+2021-11-07 17:40:54.863 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Birthdate generated for children : 07102006
+2021-11-07 17:40:55.261 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Gender selected for number 4 guest : Kad覺n
+2021-11-07 17:40:55.522 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Not TC citizen checked for number 4 guest
+2021-11-07 17:40:55.939 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Passport typed as 4 guest
+2021-11-07 17:40:56.162 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Proceed payment button clicked
+2021-11-07 17:40:57.929 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Card Owner Name Typed : isim soyisim
+2021-11-07 17:40:58.133 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Card Number Typed : 1234123412341234
+2021-11-07 17:40:58.133 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random year generated for card  : 28
+2021-11-07 17:40:58.134 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random month generated for card  : 03
+2021-11-07 17:40:58.478 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random Month selected
+2021-11-07 17:40:58.777 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random Year selected
+2021-11-07 17:40:58.777 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random CVC generated for card  : 891
+2021-11-07 17:40:58.831 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random CVC typed
+2021-11-07 17:41:14.381 [main] INFO  Pages.HomePage - HomePage : etstur.com opened
+2021-11-07 17:41:15.361 [main] INFO  Pages.HomePage - HomePage : hotel button click
+2021-11-07 17:41:16.284 [main] INFO  Pages.HotelsPage - HotelsPage : typed-> Antalya selected-> Antalya Otelleri
+2021-11-07 17:41:16.533 [main] INFO  Pages.HotelsPage - HotelsPage : clicked date field
+2021-11-07 17:41:16.585 [main] INFO  Pages.HotelsPage - HotelsPage : Last Date Of First Month(Left Column): 30
+2021-11-07 17:41:16.616 [main] INFO  Pages.HotelsPage - HotelsPage : Last Date Of Second Month(Right Column): 31
+2021-11-07 17:41:16.627 [main] INFO  Pages.HotelsPage - HotelsPage : Todays Date: 7
+2021-11-07 17:41:16.627 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-in date: 19
+2021-11-07 17:41:16.876 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-in date selected
+2021-11-07 17:41:16.877 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-out date from right column: 31
+2021-11-07 17:41:17.139 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-out date selected from right column: 31
+2021-11-07 17:41:17.140 [main] INFO  Pages.HotelsPage - HotelsPage : User Adult Count: 2 User Child Count: 2
+2021-11-07 17:41:17.395 [main] INFO  Pages.HotelsPage - HotelsPage : Clicked guests field
+2021-11-07 17:41:17.425 [main] INFO  Pages.HotelsPage - HotelsPage : Default number of adults selected : 2
+2021-11-07 17:41:17.454 [main] INFO  Pages.HotelsPage - HotelsPage : Default number of child selected : 0
+2021-11-07 17:41:17.455 [main] INFO  Pages.HotelsPage - HotelsPage : Waiting for adult error message to be invisible 
+2021-11-07 17:41:17.494 [main] INFO  Pages.HotelsPage - HotelsPage : Adult error message is invisible 
+2021-11-07 17:41:17.736 [main] INFO  Pages.HotelsPage - HotelsPage : Child Guest Plus Button Clicked 
+2021-11-07 17:41:17.736 [main] INFO  Pages.HotelsPage - HotelsPage : Waiting for adult error message to be invisible 
+2021-11-07 17:41:17.787 [main] INFO  Pages.HotelsPage - HotelsPage : Adult error message is invisible 
+2021-11-07 17:41:18.040 [main] INFO  Pages.HotelsPage - HotelsPage : Child Guest Plus Button Clicked 
+2021-11-07 17:41:18.041 [main] INFO  Pages.HotelsPage - HotelsPage : Generating random ages for child/children
+2021-11-07 17:41:18.074 [main] INFO  Pages.HotelsPage - HotelsPage : Age generated : 3
+2021-11-07 17:41:18.341 [main] INFO  Pages.HotelsPage - HotelsPage : Age generated : 4
+2021-11-07 17:41:20.072 [main] INFO  Pages.HotelsPage - HotelsPage : Search hotel button clicked
+2021-11-07 17:41:26.222 [main] INFO  Pages.ResultsPage - ResultsPage : clicked number 1 hotel
+2021-11-07 17:41:27.640 [main] INFO  Pages.HotelDetailsPage - HotelDetailsPage : number 1 room selected
+2021-11-07 17:41:28.793 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage : 1 name field clicked
+2021-11-07 17:41:28.946 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Birthdate generated for adult : 07101991
+2021-11-07 17:41:29.297 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Gender selected for number 1 guest : Kad覺n
+2021-11-07 17:41:29.553 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Not TC citizen checked for number 1 guest
+2021-11-07 17:41:29.946 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Passport typed as 1 guest
+2021-11-07 17:41:30.797 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage : 2 name field clicked
+2021-11-07 17:41:30.930 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Birthdate generated for adult : 07101991
+2021-11-07 17:41:31.247 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Gender selected for number 2 guest : Kad覺n
+2021-11-07 17:41:31.512 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Not TC citizen checked for number 2 guest
+2021-11-07 17:41:31.921 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Passport typed as 2 guest
+2021-11-07 17:41:32.756 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage : 3 name field clicked
+2021-11-07 17:41:32.842 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Birthdate generated for children : 07102018
+2021-11-07 17:41:33.241 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Gender selected for number 3 guest : Kad覺n
+2021-11-07 17:41:33.500 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Not TC citizen checked for number 3 guest
+2021-11-07 17:41:33.958 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Passport typed as 3 guest
+2021-11-07 17:41:34.804 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage : 4 name field clicked
+2021-11-07 17:41:34.934 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Birthdate generated for children : 07102017
+2021-11-07 17:41:35.355 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Gender selected for number 4 guest : Kad覺n
+2021-11-07 17:41:35.624 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Not TC citizen checked for number 4 guest
+2021-11-07 17:41:36.071 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Passport typed as 4 guest
+2021-11-07 17:41:36.250 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Proceed payment button clicked
+2021-11-07 17:41:37.951 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Card Owner Name Typed : isim soyisim
+2021-11-07 17:41:38.169 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Card Number Typed : 1234123412341234
+2021-11-07 17:41:38.169 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random year generated for card  : 26
+2021-11-07 17:41:38.169 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random month generated for card  : 10
+2021-11-07 17:41:38.473 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random Month selected
+2021-11-07 17:41:38.772 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random Year selected
+2021-11-07 17:41:38.773 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random CVC generated for card  : 363
+2021-11-07 17:41:38.818 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random CVC typed
+2021-11-07 18:07:06.178 [main] INFO  Pages.HomePage - HomePage : etstur.com opened
+2021-11-07 18:07:07.153 [main] INFO  Pages.HomePage - HomePage : hotel button click
+2021-11-07 18:07:08.067 [main] INFO  Pages.HotelsPage - HotelsPage : typed-> Antalya selected-> Antalya Otelleri
+2021-11-07 18:07:08.334 [main] INFO  Pages.HotelsPage - HotelsPage : clicked date field
+2021-11-07 18:07:08.393 [main] INFO  Pages.HotelsPage - HotelsPage : Last Date Of First Month(Left Column): 30
+2021-11-07 18:07:08.421 [main] INFO  Pages.HotelsPage - HotelsPage : Last Date Of Second Month(Right Column): 31
+2021-11-07 18:07:08.434 [main] INFO  Pages.HotelsPage - HotelsPage : Todays Date: 7
+2021-11-07 18:07:08.435 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-in date: 23
+2021-11-07 18:07:08.710 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-in date selected
+2021-11-07 18:07:08.711 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-out date from right column: 25
+2021-11-07 18:07:08.979 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-out date selected from right column: 25
+2021-11-07 18:07:08.980 [main] INFO  Pages.HotelsPage - HotelsPage : User Adult Count: 2 User Child Count: 2
+2021-11-07 18:07:09.244 [main] INFO  Pages.HotelsPage - HotelsPage : Clicked guests field
+2021-11-07 18:07:09.283 [main] INFO  Pages.HotelsPage - HotelsPage : Default number of adults selected : 2
+2021-11-07 18:07:09.309 [main] INFO  Pages.HotelsPage - HotelsPage : Default number of child selected : 0
+2021-11-07 18:07:09.309 [main] INFO  Pages.HotelsPage - HotelsPage : Waiting for adult error message to be invisible 
+2021-11-07 18:07:09.345 [main] INFO  Pages.HotelsPage - HotelsPage : Adult error message is invisible 
+2021-11-07 18:07:09.603 [main] INFO  Pages.HotelsPage - HotelsPage : Child Guest Plus Button Clicked 
+2021-11-07 18:07:09.604 [main] INFO  Pages.HotelsPage - HotelsPage : Waiting for adult error message to be invisible 
+2021-11-07 18:07:09.641 [main] INFO  Pages.HotelsPage - HotelsPage : Adult error message is invisible 
+2021-11-07 18:07:09.885 [main] INFO  Pages.HotelsPage - HotelsPage : Child Guest Plus Button Clicked 
+2021-11-07 18:07:09.886 [main] INFO  Pages.HotelsPage - HotelsPage : Generating random ages for child/children
+2021-11-07 18:07:09.936 [main] INFO  Pages.HotelsPage - HotelsPage : Age generated : 12
+2021-11-07 18:07:10.222 [main] INFO  Pages.HotelsPage - HotelsPage : Age generated : 15
+2021-11-07 18:07:12.026 [main] INFO  Pages.HotelsPage - HotelsPage : Search hotel button clicked
+2021-11-07 18:07:15.004 [main] INFO  Pages.ResultsPage - ResultsPage : clicked number 1 hotel
+2021-11-07 18:07:16.448 [main] INFO  Pages.HotelDetailsPage - HotelDetailsPage : number 1 room selected
+2021-11-07 18:07:17.695 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage : 1 name field clicked
+2021-11-07 18:07:17.862 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Birthdate generated for adult : 07101991
+2021-11-07 18:07:18.198 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Gender selected for number 1 guest : Kad�n
+2021-11-07 18:07:18.455 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Not TC citizen checked for number 1 guest
+2021-11-07 18:07:18.896 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Passport typed as 1 guest
+2021-11-07 18:07:19.731 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage : 2 name field clicked
+2021-11-07 18:07:19.856 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Birthdate generated for adult : 07101991
+2021-11-07 18:07:20.215 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Gender selected for number 2 guest : Erkek
+2021-11-07 18:07:20.472 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Not TC citizen checked for number 2 guest
+2021-11-07 18:07:20.868 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Passport typed as 2 guest
+2021-11-07 18:07:21.713 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage : 3 name field clicked
+2021-11-07 18:07:21.827 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Birthdate generated for children : 07102009
+2021-11-07 18:07:22.195 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Gender selected for number 3 guest : Kad�n
+2021-11-07 18:07:22.444 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Not TC citizen checked for number 3 guest
+2021-11-07 18:07:22.847 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Passport typed as 3 guest
+2021-11-07 18:07:23.686 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage : 4 name field clicked
+2021-11-07 18:07:23.807 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Birthdate generated for children : 07102006
+2021-11-07 18:07:24.196 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Gender selected for number 4 guest : Erkek
+2021-11-07 18:07:24.456 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Not TC citizen checked for number 4 guest
+2021-11-07 18:07:24.895 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Passport typed as 4 guest
+2021-11-07 18:07:25.088 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Proceed payment button clicked
+2021-11-07 18:07:26.834 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Card Owner Name Typed : isim soyisim
+2021-11-07 18:07:27.038 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Card Number Typed : 1234123412341234
+2021-11-07 18:07:27.038 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random year generated for card  : 30
+2021-11-07 18:07:27.038 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random month generated for card  : 02
+2021-11-07 18:07:27.350 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random Month selected
+2021-11-07 18:07:27.665 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random Year selected
+2021-11-07 18:07:27.665 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random CVC generated for card  : 926
+2021-11-07 18:07:27.708 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random CVC typed
+2021-11-07 18:07:34.271 [main] INFO  Pages.HomePage - HomePage : etstur.com opened
+2021-11-07 18:07:35.188 [main] INFO  Pages.HomePage - HomePage : hotel button click
+2021-11-07 18:07:36.116 [main] INFO  Pages.HotelsPage - HotelsPage : typed-> Antalya selected-> Antalya Otelleri
+2021-11-07 18:07:36.370 [main] INFO  Pages.HotelsPage - HotelsPage : clicked date field
+2021-11-07 18:07:36.405 [main] INFO  Pages.HotelsPage - HotelsPage : Last Date Of First Month(Left Column): 30
+2021-11-07 18:07:36.436 [main] INFO  Pages.HotelsPage - HotelsPage : Last Date Of Second Month(Right Column): 31
+2021-11-07 18:07:36.445 [main] INFO  Pages.HotelsPage - HotelsPage : Todays Date: 7
+2021-11-07 18:07:36.446 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-in date: 17
+2021-11-07 18:07:36.708 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-in date selected
+2021-11-07 18:07:36.708 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-out date from right column: 20
+2021-11-07 18:07:36.964 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-out date selected from right column: 20
+2021-11-07 18:07:36.964 [main] INFO  Pages.HotelsPage - HotelsPage : User Adult Count: 2 User Child Count: 3
+2021-11-07 18:07:37.207 [main] INFO  Pages.HotelsPage - HotelsPage : Clicked guests field
+2021-11-07 18:07:37.238 [main] INFO  Pages.HotelsPage - HotelsPage : Default number of adults selected : 2
+2021-11-07 18:07:37.269 [main] INFO  Pages.HotelsPage - HotelsPage : Default number of child selected : 0
+2021-11-07 18:07:37.269 [main] INFO  Pages.HotelsPage - HotelsPage : Waiting for adult error message to be invisible 
+2021-11-07 18:07:37.304 [main] INFO  Pages.HotelsPage - HotelsPage : Adult error message is invisible 
+2021-11-07 18:07:37.551 [main] INFO  Pages.HotelsPage - HotelsPage : Child Guest Plus Button Clicked 
+2021-11-07 18:07:37.551 [main] INFO  Pages.HotelsPage - HotelsPage : Waiting for adult error message to be invisible 
+2021-11-07 18:07:37.583 [main] INFO  Pages.HotelsPage - HotelsPage : Adult error message is invisible 
+2021-11-07 18:07:37.820 [main] INFO  Pages.HotelsPage - HotelsPage : Child Guest Plus Button Clicked 
+2021-11-07 18:07:37.820 [main] INFO  Pages.HotelsPage - HotelsPage : Waiting for adult error message to be invisible 
+2021-11-07 18:07:37.852 [main] INFO  Pages.HotelsPage - HotelsPage : Adult error message is invisible 
+2021-11-07 18:07:38.079 [main] INFO  Pages.HotelsPage - HotelsPage : Child Guest Plus Button Clicked 
+2021-11-07 18:07:38.722 [main] INFO  Pages.HotelsPage - HotelsPage : Took screenshot of child error message
+2021-11-07 18:07:45.658 [main] INFO  Pages.HomePage - HomePage : etstur.com opened
+2021-11-07 18:07:46.610 [main] INFO  Pages.HomePage - HomePage : hotel button click
+2021-11-07 18:07:47.515 [main] INFO  Pages.HotelsPage - HotelsPage : typed-> Antalya selected-> Antalya Otelleri
+2021-11-07 18:07:47.762 [main] INFO  Pages.HotelsPage - HotelsPage : clicked date field
+2021-11-07 18:07:47.796 [main] INFO  Pages.HotelsPage - HotelsPage : Last Date Of First Month(Left Column): 30
+2021-11-07 18:07:47.825 [main] INFO  Pages.HotelsPage - HotelsPage : Last Date Of Second Month(Right Column): 31
+2021-11-07 18:07:47.836 [main] INFO  Pages.HotelsPage - HotelsPage : Todays Date: 7
+2021-11-07 18:07:47.837 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-in date: 8
+2021-11-07 18:07:48.087 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-in date selected
+2021-11-07 18:07:48.087 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-out date from left column: 24
+2021-11-07 18:07:48.351 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-out date selected from left column: 24
+2021-11-07 18:07:48.351 [main] INFO  Pages.HotelsPage - HotelsPage : User Adult Count: 7 User Child Count: 1
+2021-11-07 18:07:48.607 [main] INFO  Pages.HotelsPage - HotelsPage : Clicked guests field
+2021-11-07 18:07:48.639 [main] INFO  Pages.HotelsPage - HotelsPage : Default number of adults selected : 2
+2021-11-07 18:07:48.886 [main] INFO  Pages.HotelsPage - HotelsPage : Adult Guest Plus Button Clicked 
+2021-11-07 18:07:49.131 [main] INFO  Pages.HotelsPage - HotelsPage : Adult Guest Plus Button Clicked 
+2021-11-07 18:07:49.363 [main] INFO  Pages.HotelsPage - HotelsPage : Adult Guest Plus Button Clicked 
+2021-11-07 18:07:49.601 [main] INFO  Pages.HotelsPage - HotelsPage : Adult Guest Plus Button Clicked 
+2021-11-07 18:07:49.830 [main] INFO  Pages.HotelsPage - HotelsPage : Adult Guest Plus Button Clicked 
+2021-11-07 18:07:50.467 [main] INFO  Pages.HotelsPage - HotelsPage : Took screenshot for adult error 
+2021-11-07 18:07:50.587 [main] INFO  Pages.HotelsPage - HotelsPage : Default number of child selected : 0
+2021-11-07 18:07:50.588 [main] INFO  Pages.HotelsPage - HotelsPage : Waiting for adult error message to be invisible 
+2021-11-07 18:07:51.780 [main] INFO  Pages.HotelsPage - HotelsPage : Adult error message is invisible 
+2021-11-07 18:07:52.036 [main] INFO  Pages.HotelsPage - HotelsPage : Child Guest Plus Button Clicked 
+2021-11-07 18:15:56.089 [main] INFO  Pages.HomePage - HomePage : etstur.com opened
+2021-11-07 18:15:57.126 [main] INFO  Pages.HomePage - HomePage : hotel button click
+2021-11-07 18:15:58.013 [main] INFO  Pages.HotelsPage - HotelsPage : typed-> Antalya selected-> Antalya Otelleri
+2021-11-07 18:15:58.270 [main] INFO  Pages.HotelsPage - HotelsPage : clicked date field
+2021-11-07 18:15:58.307 [main] INFO  Pages.HotelsPage - HotelsPage : Last Date Of First Month(Left Column): 30
+2021-11-07 18:15:58.353 [main] INFO  Pages.HotelsPage - HotelsPage : Last Date Of Second Month(Right Column): 31
+2021-11-07 18:15:58.376 [main] INFO  Pages.HotelsPage - HotelsPage : Todays Date: 7
+2021-11-07 18:15:58.377 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-in date: 22
+2021-11-07 18:15:58.627 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-in date selected
+2021-11-07 18:15:58.628 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-out date from left column: 25
+2021-11-07 18:15:58.872 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-out date selected from left column: 25
+2021-11-07 18:15:58.873 [main] INFO  Pages.HotelsPage - HotelsPage : User Adult Count: 2 User Child Count: 2
+2021-11-07 18:15:59.125 [main] INFO  Pages.HotelsPage - HotelsPage : Clicked guests field
+2021-11-07 18:15:59.160 [main] INFO  Pages.HotelsPage - HotelsPage : Default number of adults selected : 2
+2021-11-07 18:15:59.197 [main] INFO  Pages.HotelsPage - HotelsPage : Default number of child selected : 0
+2021-11-07 18:15:59.197 [main] INFO  Pages.HotelsPage - HotelsPage : Waiting for adult error message to be invisible 
+2021-11-07 18:15:59.227 [main] INFO  Pages.HotelsPage - HotelsPage : Adult error message is invisible 
+2021-11-07 18:15:59.471 [main] INFO  Pages.HotelsPage - HotelsPage : Child Guest Plus Button Clicked 
+2021-11-07 18:15:59.471 [main] INFO  Pages.HotelsPage - HotelsPage : Waiting for adult error message to be invisible 
+2021-11-07 18:15:59.507 [main] INFO  Pages.HotelsPage - HotelsPage : Adult error message is invisible 
+2021-11-07 18:15:59.745 [main] INFO  Pages.HotelsPage - HotelsPage : Child Guest Plus Button Clicked 
+2021-11-07 18:15:59.746 [main] INFO  Pages.HotelsPage - HotelsPage : Generating random ages for child/children
+2021-11-07 18:15:59.800 [main] INFO  Pages.HotelsPage - HotelsPage : Age generated : 5
+2021-11-07 18:16:00.069 [main] INFO  Pages.HotelsPage - HotelsPage : Age generated : 3
+2021-11-07 18:16:01.267 [main] INFO  Pages.HotelsPage - HotelsPage : Search hotel button clicked
+2021-11-07 18:16:03.216 [main] INFO  Pages.ResultsPage - ResultsPage : clicked number 1 hotel
+2021-11-07 18:16:28.785 [main] INFO  Pages.HomePage - HomePage : etstur.com opened
+2021-11-07 18:16:29.721 [main] INFO  Pages.HomePage - HomePage : hotel button click
+2021-11-07 18:16:30.641 [main] INFO  Pages.HotelsPage - HotelsPage : typed-> Antalya selected-> Antalya Otelleri
+2021-11-07 18:16:30.921 [main] INFO  Pages.HotelsPage - HotelsPage : clicked date field
+2021-11-07 18:16:30.984 [main] INFO  Pages.HotelsPage - HotelsPage : Last Date Of First Month(Left Column): 30
+2021-11-07 18:16:31.028 [main] INFO  Pages.HotelsPage - HotelsPage : Last Date Of Second Month(Right Column): 31
+2021-11-07 18:16:31.054 [main] INFO  Pages.HotelsPage - HotelsPage : Todays Date: 7
+2021-11-07 18:16:31.054 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-in date: 18
+2021-11-07 18:16:31.309 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-in date selected
+2021-11-07 18:16:31.310 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-out date from right column: 23
+2021-11-07 18:16:31.570 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-out date selected from right column: 23
+2021-11-07 18:16:31.571 [main] INFO  Pages.HotelsPage - HotelsPage : User Adult Count: 2 User Child Count: 2
+2021-11-07 18:16:31.835 [main] INFO  Pages.HotelsPage - HotelsPage : Clicked guests field
+2021-11-07 18:16:31.875 [main] INFO  Pages.HotelsPage - HotelsPage : Default number of adults selected : 2
+2021-11-07 18:16:31.901 [main] INFO  Pages.HotelsPage - HotelsPage : Default number of child selected : 0
+2021-11-07 18:16:31.902 [main] INFO  Pages.HotelsPage - HotelsPage : Waiting for adult error message to be invisible 
+2021-11-07 18:16:31.945 [main] INFO  Pages.HotelsPage - HotelsPage : Adult error message is invisible 
+2021-11-07 18:16:32.221 [main] INFO  Pages.HotelsPage - HotelsPage : Child Guest Plus Button Clicked 
+2021-11-07 18:16:32.221 [main] INFO  Pages.HotelsPage - HotelsPage : Waiting for adult error message to be invisible 
+2021-11-07 18:16:32.264 [main] INFO  Pages.HotelsPage - HotelsPage : Adult error message is invisible 
+2021-11-07 18:16:32.500 [main] INFO  Pages.HotelsPage - HotelsPage : Child Guest Plus Button Clicked 
+2021-11-07 18:16:32.501 [main] INFO  Pages.HotelsPage - HotelsPage : Generating random ages for child/children
+2021-11-07 18:16:32.535 [main] INFO  Pages.HotelsPage - HotelsPage : Age generated : 11
+2021-11-07 18:16:32.800 [main] INFO  Pages.HotelsPage - HotelsPage : Age generated : 3
+2021-11-07 18:16:34.499 [main] INFO  Pages.HotelsPage - HotelsPage : Search hotel button clicked
+2021-11-07 18:16:38.529 [main] INFO  Pages.ResultsPage - ResultsPage : clicked number 1 hotel
+2021-11-07 18:16:40.046 [main] INFO  Pages.HotelDetailsPage - HotelDetailsPage : number 1 room selected
+2021-11-07 18:16:41.189 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage : 1 name field clicked
+2021-11-07 18:16:41.324 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Birthdate generated for adult : 07101991
+2021-11-07 18:16:41.684 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Gender selected for number 1 guest : Kad覺n
+2021-11-07 18:16:41.944 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Not TC citizen checked for number 1 guest
+2021-11-07 18:16:42.331 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Passport typed as 1 guest
+2021-11-07 18:16:43.176 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage : 2 name field clicked
+2021-11-07 18:16:43.310 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Birthdate generated for adult : 07101991
+2021-11-07 18:16:43.662 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Gender selected for number 2 guest : Erkek
+2021-11-07 18:16:43.928 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Not TC citizen checked for number 2 guest
+2021-11-07 18:16:44.303 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Passport typed as 2 guest
+2021-11-07 18:16:45.147 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage : 3 name field clicked
+2021-11-07 18:16:45.251 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Birthdate generated for children : 07102010
+2021-11-07 18:16:45.644 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Gender selected for number 3 guest : Kad覺n
+2021-11-07 18:16:45.900 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Not TC citizen checked for number 3 guest
+2021-11-07 18:16:46.295 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Passport typed as 3 guest
+2021-11-07 18:16:47.157 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage : 4 name field clicked
+2021-11-07 18:16:47.265 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Birthdate generated for children : 07102018
+2021-11-07 18:16:47.697 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Gender selected for number 4 guest : Erkek
+2021-11-07 18:16:47.956 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Not TC citizen checked for number 4 guest
+2021-11-07 18:16:48.371 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Passport typed as 4 guest
+2021-11-07 18:16:48.562 [main] INFO  Pages.PaymentInformationPage - PaymentInformationPage :Proceed payment button clicked
+2021-11-07 18:16:50.368 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Card Owner Name Typed : isim soyisim
+2021-11-07 18:16:50.457 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Card Number Typed : 1234123412341234
+2021-11-07 18:16:50.457 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random year generated for card  : 27
+2021-11-07 18:16:50.457 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random month generated for card  : 03
+2021-11-07 18:16:50.776 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random Month selected
+2021-11-07 18:16:51.101 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random Year selected
+2021-11-07 18:16:51.101 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random CVC generated for card  : 664
+2021-11-07 18:16:51.143 [main] INFO  Pages.PaymentInformationPage - PaymentCardPage :Random CVC typed

@@ -1,0 +1,14 @@
+Pages\HotelDetailsPage.class
+StepDefinitions\Base.class
+StepDefinitions\HotelDetailsStepDefinitions.class
+Pages\HomePage.class
+StepDefinitions\PaymentCardStepDefinitions.class
+StepDefinitions\ResultsPageStepDefinitons.class
+Pages\PaymentInformationPage.class
+StepDefinitions\HomePageStepDefinitions.class
+Pages\HotelsPage.class
+Pages\ResultsPage.class
+StepDefinitions\HotelsPageStepDefinitions.class
+TestRunner\TestRunner.class
+Pages\PaymentCardPage.class
+StepDefinitions\PaymentInformationStepDefinitions.class

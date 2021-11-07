@@ -1,0 +1,457 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4619000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Browser is open",
+            "match": {
+              "location": "StepDefinitions.Base.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2834000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Home Page is opened",
+            "match": {
+              "location": "StepDefinitions.HomePageStepDefinitions.openHomePage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-07T15:06:58.697Z",
+        "line": 6,
+        "name": "Search For Hotels Happy Path",
+        "description": "",
+        "id": "etstur-hotel-search;search-for-hotels-happy-path",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 941000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on hotels",
+            "match": {
+              "location": "StepDefinitions.HomePageStepDefinitions.userClicksOnHotels()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 915000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "types destination to go as \"Antalya\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Antalya\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinitions.HotelsPageStepDefinitions.typesDestinationToGo(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 911000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "selects dates randomly",
+            "match": {
+              "location": "StepDefinitions.HotelsPageStepDefinitions.selectsDatesRandomly()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 905000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "selects 2 adult 2 child as number of guests",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 8
+                },
+                {
+                  "val": "2",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinitions.HotelsPageStepDefinitions.selectsAsNumberOfGuests(int,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 599000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "select children age randomly",
+            "match": {
+              "location": "StepDefinitions.HotelsPageStepDefinitions.selectChildrenAgeRandomly()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1542000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "clicks on search button",
+            "match": {
+              "location": "StepDefinitions.HotelsPageStepDefinitions.clickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2978000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "selects number 1 hotel from results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinitions.ResultsPageStepDefinitons.selectsNumberHotelFromResults(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1444000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "selects number 1 room from results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinitions.HotelDetailsStepDefinitions.selectsNumberRoomFromResults(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8640000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "fills guest information area as foreigner",
+            "match": {
+              "location": "StepDefinitions.PaymentInformationStepDefinitions.fillsGuestInformationAreaAsForeigner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2620000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "fills card information",
+            "match": {
+              "location": "StepDefinitions.PaymentCardStepDefinitions.fillsCardInformation()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1092000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "close browser",
+            "match": {
+              "location": "StepDefinitions.Base.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3507000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Browser is open",
+            "match": {
+              "location": "StepDefinitions.Base.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1991000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Home Page is opened",
+            "match": {
+              "location": "StepDefinitions.HomePageStepDefinitions.openHomePage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-07T15:07:28.812Z",
+        "line": 19,
+        "name": "More Than 2 Child",
+        "description": "",
+        "id": "etstur-hotel-search;more-than-2-child",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 878000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user clicks on hotels",
+            "match": {
+              "location": "StepDefinitions.HomePageStepDefinitions.userClicksOnHotels()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 928000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "types destination to go as \"Antalya\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Antalya\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinitions.HotelsPageStepDefinitions.typesDestinationToGo(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 847000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "selects dates randomly",
+            "match": {
+              "location": "StepDefinitions.HotelsPageStepDefinitions.selectsDatesRandomly()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1815000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "selects 2 adult 3 child as number of guests",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 8
+                },
+                {
+                  "val": "3",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinitions.HotelsPageStepDefinitions.selectsAsNumberOfGuests(int,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 857000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "close browser",
+            "match": {
+              "location": "StepDefinitions.Base.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4030000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Browser is open",
+            "match": {
+              "location": "StepDefinitions.Base.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2032000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Home Page is opened",
+            "match": {
+              "location": "StepDefinitions.HomePageStepDefinitions.openHomePage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-07T15:07:39.640Z",
+        "line": 26,
+        "name": "More Than 6 Adult",
+        "description": "",
+        "id": "etstur-hotel-search;more-than-6-adult",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 909000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user clicks on hotels",
+            "match": {
+              "location": "StepDefinitions.HomePageStepDefinitions.userClicksOnHotels()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 904000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "types destination to go as \"Antalya\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Antalya\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinitions.HotelsPageStepDefinitions.typesDestinationToGo(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 836000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "selects dates randomly",
+            "match": {
+              "location": "StepDefinitions.HotelsPageStepDefinitions.selectsDatesRandomly()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3685000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "selects 7 adult 1 child as number of guests",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 8
+                },
+                {
+                  "val": "1",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinitions.HotelsPageStepDefinitions.selectsAsNumberOfGuests(int,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 869000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "close browser",
+            "match": {
+              "location": "StepDefinitions.Base.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "ETSTur Hotel Search",
+    "description": "",
+    "id": "etstur-hotel-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/HotelSearch.feature",
+    "tags": []
+  }
+]
