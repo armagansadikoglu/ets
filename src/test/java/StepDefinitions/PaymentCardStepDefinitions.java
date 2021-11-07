@@ -15,4 +15,5 @@ public class PaymentCardStepDefinitions {
     public void fillsCardInformation() {
         paymentCardPage.fillsCardInformationRandomly();
     }
+
 }

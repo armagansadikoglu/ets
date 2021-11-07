@@ -1,6 +1,7 @@
 package Pages;
 
 
+import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -15,6 +16,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
+import static Pages.HotelDetailsPage.hotelDetailPagePrice;
 public class PaymentInformationPage {
     WebDriver driver;
     Logger logger;
@@ -53,6 +55,10 @@ public class PaymentInformationPage {
     @FindBy(id="contactFormPhoneNumber-g1")
     WebElement phoneNumber;
 
+    @FindBy(css = ".pr-amount-total>div")
+    WebElement informationPagePrice;
+
+    String informationPagePriceString;
     String phoneString = "5555555555";
     String emailString = "deneme@deneme.com";
     String passportString = "55555555555555";
@@ -61,7 +67,7 @@ public class PaymentInformationPage {
     public void fillsGuestInformationAreaAsForeignerRandomly() {
         WebDriverWait wait = new WebDriverWait(driver,5);
         wait.until(ExpectedConditions.visibilityOfAllElements(names));
-
+        assertPrice();
         for (int i=0; i< genders.size();i++){
             wait.until(ExpectedConditions.elementToBeClickable(names.get(i)));
             names.get(i).click();
@@ -121,8 +127,14 @@ public class PaymentInformationPage {
         //wait.until(ExpectedConditions.elementToBeClickable(proceedPaymentButton)).click();
         ((JavascriptExecutor)driver).executeScript("arguments[0].click();", proceedPaymentButton);
         logger.log(Level.INFO,this.getClass().getSimpleName()+" :Proceed payment button clicked");
-
     }
 
+    public void assertPrice(){
+        informationPagePriceString = informationPagePrice.getText().split(",")[0];
+        logger.log(Level.INFO,this.getClass().getSimpleName()+
+                " :Information Page Price: "+informationPagePriceString
+                +" Hotel Page Price:"+hotelDetailPagePrice);
+        Assert.assertEquals(informationPagePriceString,hotelDetailPagePrice);
+    }
 
 }

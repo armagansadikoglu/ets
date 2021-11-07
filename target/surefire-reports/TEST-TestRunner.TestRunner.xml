@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestRunner.TestRunner" time="54.813" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestRunner.TestRunner" time="42.693" tests="3" errors="1" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1254"/>
-    <property name="java.class.path" value="C:\Users\EVPC\IdeaProjects\ETS\target\test-classes;C:\Users\EVPC\IdeaProjects\ETS\target\classes;C:\Users\EVPC\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\EVPC\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\EVPC\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\EVPC\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\EVPC\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\EVPC\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\EVPC\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\EVPC\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\EVPC\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\EVPC\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\EVPC\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\EVPC\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\EVPC\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\EVPC\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\EVPC\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\EVPC\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\EVPC\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\EVPC\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\EVPC\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\EVPC\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\EVPC\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\EVPC\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\EVPC\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\EVPC\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\EVPC\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\EVPC\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\EVPC\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\EVPC\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\EVPC\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\EVPC\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\EVPC\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\EVPC\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\EVPC\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\EVPC\.m2\repository\io\cucumber\cucumber-junit\6.11.0\cucumber-junit-6.11.0.jar;C:\Users\EVPC\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\EVPC\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\EVPC\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\EVPC\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\EVPC\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;"/>
+    <property name="java.class.path" value="C:\Users\Armagan\IdeaProjects\ets\target\test-classes;C:\Users\Armagan\IdeaProjects\ets\target\classes;C:\Users\Armagan\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Armagan\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Armagan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Armagan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Armagan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Armagan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Armagan\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Armagan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Armagan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Armagan\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Armagan\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Armagan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Armagan\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Armagan\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Armagan\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Armagan\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Armagan\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Armagan\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Armagan\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Armagan\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Armagan\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\Armagan\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\Armagan\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\Armagan\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\Armagan\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\Armagan\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\Armagan\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Armagan\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Armagan\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\Armagan\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\Armagan\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\Armagan\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\Armagan\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Armagan\.m2\repository\io\cucumber\cucumber-junit\6.11.0\cucumber-junit-6.11.0.jar;C:\Users\Armagan\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Armagan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Armagan\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Armagan\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\Armagan\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,49 +18,145 @@
     <property name="user.country" value="TR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\EVPC\AppData\Local\Temp\surefire4015999231289184391\surefirebooter5963458550941138387.jar C:\Users\EVPC\AppData\Local\Temp\surefire4015999231289184391 2021-11-07T18-06-57_631-jvmRun1 surefire5864258347124258989tmp surefire_01725267049116892320tmp"/>
-    <property name="surefire.test.class.path" value="C:\Users\EVPC\IdeaProjects\ETS\target\test-classes;C:\Users\EVPC\IdeaProjects\ETS\target\classes;C:\Users\EVPC\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\EVPC\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\EVPC\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\EVPC\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\EVPC\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\EVPC\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\EVPC\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\EVPC\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\EVPC\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\EVPC\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\EVPC\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\EVPC\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\EVPC\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\EVPC\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\EVPC\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\EVPC\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\EVPC\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\EVPC\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\EVPC\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\EVPC\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\EVPC\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\EVPC\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\EVPC\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\EVPC\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\EVPC\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\EVPC\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\EVPC\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\EVPC\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\EVPC\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\EVPC\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\EVPC\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\EVPC\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\EVPC\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\EVPC\.m2\repository\io\cucumber\cucumber-junit\6.11.0\cucumber-junit-6.11.0.jar;C:\Users\EVPC\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\EVPC\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\EVPC\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\EVPC\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\EVPC\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;"/>
+    <property name="sun.java.command" value="C:\Users\Armagan\AppData\Local\Temp\surefire896594471935000447\surefirebooter5413599534557586641.jar C:\Users\Armagan\AppData\Local\Temp\surefire896594471935000447 2021-11-07T23-19-46_702-jvmRun1 surefire6301329548447055754tmp surefire_07934189132641627059tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Armagan\IdeaProjects\ets\target\test-classes;C:\Users\Armagan\IdeaProjects\ets\target\classes;C:\Users\Armagan\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Armagan\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Armagan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Armagan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Armagan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Armagan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Armagan\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Armagan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Armagan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Armagan\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Armagan\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Armagan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Armagan\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Armagan\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Armagan\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Armagan\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Armagan\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Armagan\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Armagan\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Armagan\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Armagan\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\Armagan\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\Armagan\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\Armagan\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\Armagan\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\Armagan\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\Armagan\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Armagan\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Armagan\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\Armagan\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\Armagan\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\Armagan\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\Armagan\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Armagan\.m2\repository\io\cucumber\cucumber-junit\6.11.0\cucumber-junit-6.11.0.jar;C:\Users\Armagan\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Armagan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Armagan\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Armagan\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\Armagan\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\EVPC"/>
+    <property name="user.home" value="C:\Users\Armagan"/>
     <property name="user.language" value="tr"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_271\jre"/>
-    <property name="basedir" value="C:\Users\EVPC\IdeaProjects\ETS"/>
+    <property name="basedir" value="C:\Users\Armagan\IdeaProjects\ets"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\EVPC\AppData\Local\Temp\surefire4015999231289184391\surefirebooter5963458550941138387.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Armagan\AppData\Local\Temp\surefire896594471935000447\surefirebooter5413599534557586641.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_271-b09"/>
-    <property name="user.name" value="EVPC"/>
+    <property name="user.name" value="Armagan"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\endorsed"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1254"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="localRepository" value="C:\Users\EVPC\.m2\repository"/>
+    <property name="localRepository" value="C:\Users\Armagan\.m2\repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\EVPC\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\Armagan\AppData\Local\Temp\"/>
     <property name="java.version" value="1.8.0_271"/>
-    <property name="user.dir" value="C:\Users\EVPC\IdeaProjects\ETS"/>
+    <property name="user.dir" value="C:\Users\Armagan\IdeaProjects\ets"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_271\bin;C:\apache-maven-3.8.3\bin;C:\Users\EVPC\AppData\Local\Microsoft\WindowsApps;;C:\Users\EVPC\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\Java\jdk1.8.0_271;C:\python\Scripts;C:\apache-maven-3.6.3\bin;C:\apache-maven-3.6.3;C:\python;C:\Users\Armagan\AppData\Local\Android\Sdk;C:\Users\Armagan\AppData\Local\Android\Sdk\platform-tools;C:\Users\Armagan\AppData\Local\Android\Sdk\tools;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\Armagan\AppData\Local\Microsoft\WindowsApps;C:\Microsoft VS Code\bin;C:\Users\Armagan\AppData\Local\atom\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.271-b09"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="Search For Hotels Happy Path" classname="ETSTur Hotel Search" time="30.238"/>
-  <testcase name="More Than 2 Child" classname="ETSTur Hotel Search" time="10.825"/>
-  <testcase name="More Than 6 Adult" classname="ETSTur Hotel Search" time="13.269"/>
+  <testcase name="Search For Hotels Happy Path" classname="ETSTur Hotel Search" time="18.31">
+    <error message="Failed to instantiate class StepDefinitions.PaymentInformationStepDefinitions" type="io.cucumber.core.exception.CucumberException">io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.PaymentInformationStepDefinitions
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .pr-amount-total>div
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARMAGANLENOVO', ip: '192.168.0.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 10176, moz:profile: C:\Users\Armagan\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 74d89f07-1457-4f1b-8bd6-0ff0bdececfc
+*** Element info: {Using=css selector, value=.pr-amount-total>div}
+</error>
+    <system-out><![CDATA[2021-11-07 23:19:53,674 main DEBUG Apache Log4j Core 2.14.1 initializing configuration XmlConfiguration[location=C:\Users\Armagan\IdeaProjects\ets\target\classes\log4j2.xml]
+2021-11-07 23:19:53,679 main DEBUG Installed 1 script engine
+2021-11-07 23:19:53,873 main DEBUG Oracle Nashorn version: 1.8.0_271, language: ECMAScript, threading: Not Thread Safe, compile: true, names: [nashorn, Nashorn, js, JS, JavaScript, javascript, ECMAScript, ecmascript], factory class: jdk.nashorn.api.scripting.NashornScriptEngineFactory
+2021-11-07 23:19:53,873 main DEBUG PluginManager 'Core' found 122 plugins
+2021-11-07 23:19:53,873 main DEBUG PluginManager 'Level' found 0 plugins
+2021-11-07 23:19:53,877 main DEBUG PluginManager 'Lookup' found 16 plugins
+2021-11-07 23:19:53,878 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2021-11-07 23:19:53,889 main DEBUG PluginManager 'TypeConverter' found 26 plugins
+2021-11-07 23:19:53,899 main DEBUG PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n", PatternSelector=null, Configuration(C:\Users\Armagan\IdeaProjects\ets\target\classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2021-11-07 23:19:53,899 main DEBUG PluginManager 'Converter' found 44 plugins
+2021-11-07 23:19:53,900 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2021-11-07 23:19:53,906 main DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n), name="Console", Configuration(C:\Users\Armagan\IdeaProjects\ets\target\classes\log4j2.xml), Filter=null, ={})
+2021-11-07 23:19:53,907 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2021-11-07 23:19:53,907 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2021-11-07 23:19:53,908 main DEBUG PatternLayout$Builder(pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n", PatternSelector=null, Configuration(C:\Users\Armagan\IdeaProjects\ets\target\classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2021-11-07 23:19:53,919 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.FileAppender].
+2021-11-07 23:19:53,921 main DEBUG FileAppender$Builder(fileName="logs/test.log", append="true", locking="null", advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="false", ignoreExceptions="null", PatternLayout(%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n), name="MyFile", Configuration(C:\Users\Armagan\IdeaProjects\ets\target\classes\log4j2.xml), Filter=null, ={})
+2021-11-07 23:19:53,923 main DEBUG Starting FileManager logs/test.log
+2021-11-07 23:19:53,924 main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2021-11-07 23:19:53,924 main DEBUG createAppenders(={Console, MyFile})
+2021-11-07 23:19:53,924 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2021-11-07 23:19:53,927 main DEBUG createAppenderRef(ref="Console", level="null", Filter=null)
+2021-11-07 23:19:53,927 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2021-11-07 23:19:53,928 main DEBUG createAppenderRef(ref="MyFile", level="null", Filter=null)
+2021-11-07 23:19:53,928 main DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2021-11-07 23:19:53,929 main DEBUG createLogger(additivity="null", level="DEBUG", includeLocation="null", ={Console, MyFile}, ={}, Configuration(C:\Users\Armagan\IdeaProjects\ets\target\classes\log4j2.xml), Filter=null)
+2021-11-07 23:19:53,931 main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2021-11-07 23:19:53,932 main DEBUG createLoggers(={root})
+2021-11-07 23:19:53,932 main DEBUG Configuration XmlConfiguration[location=C:\Users\Armagan\IdeaProjects\ets\target\classes\log4j2.xml] initialized
+2021-11-07 23:19:53,932 main DEBUG Starting configuration XmlConfiguration[location=C:\Users\Armagan\IdeaProjects\ets\target\classes\log4j2.xml]
+2021-11-07 23:19:53,933 main DEBUG Started configuration XmlConfiguration[location=C:\Users\Armagan\IdeaProjects\ets\target\classes\log4j2.xml] OK.
+2021-11-07 23:19:53,934 main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2021-11-07 23:19:53,934 main DEBUG OutputStream closed
+2021-11-07 23:19:53,934 main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2021-11-07 23:19:53,934 main DEBUG Appender DefaultConsole-1 stopped with status true
+2021-11-07 23:19:53,935 main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@19fe4644 OK
+2021-11-07 23:19:54,007 main DEBUG Registering MBean org.apache.logging.log4j2:type=330bedb4
+2021-11-07 23:19:54,013 main DEBUG Registering MBean org.apache.logging.log4j2:type=330bedb4,component=StatusLogger
+2021-11-07 23:19:54,014 main DEBUG Registering MBean org.apache.logging.log4j2:type=330bedb4,component=ContextSelector
+2021-11-07 23:19:54,018 main DEBUG Registering MBean org.apache.logging.log4j2:type=330bedb4,component=Loggers,name=
+2021-11-07 23:19:54,020 main DEBUG Registering MBean org.apache.logging.log4j2:type=330bedb4,component=Appenders,name=Console
+2021-11-07 23:19:54,021 main DEBUG Registering MBean org.apache.logging.log4j2:type=330bedb4,component=Appenders,name=MyFile
+2021-11-07 23:19:54,023 main DEBUG org.apache.logging.log4j.core.util.SystemClock does not support precise timestamps.
+2021-11-07 23:19:54,024 main DEBUG Reconfiguration complete for context[name=330bedb4] at URI C:\Users\Armagan\IdeaProjects\ets\target\classes\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@61533ae) with optional ClassLoader: null
+2021-11-07 23:19:54,024 main DEBUG Shutdown hook enabled. Registering a new one.
+2021-11-07 23:19:54,026 main DEBUG LoggerContext[name=330bedb4, org.apache.logging.log4j.core.LoggerContext@61533ae] started OK.
+23:19:56.422 [main] INFO  Pages.HomePage - HomePage : etstur.com opened
+23:19:57.475 [main] INFO  Pages.HomePage - HomePage : hotel button click
+23:19:58.404 [main] INFO  Pages.HotelsPage - HotelsPage : typed-> Antalya selected-> Antalya Otelleri
+23:19:58.663 [main] INFO  Pages.HotelsPage - HotelsPage : clicked date field
+23:19:58.722 [main] INFO  Pages.HotelsPage - HotelsPage : Last Date Of First Month(Left Column): 30
+23:19:58.753 [main] INFO  Pages.HotelsPage - HotelsPage : Last Date Of Second Month(Right Column): 31
+23:19:58.781 [main] INFO  Pages.HotelsPage - HotelsPage : Todays Date: 7
+23:19:58.781 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-in date: 18
+23:19:59.040 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-in date selected
+23:19:59.041 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-out date from right column: 6
+23:19:59.305 [main] INFO  Pages.HotelsPage - HotelsPage : Random check-out date selected from right column: 6
+23:19:59.305 [main] INFO  Pages.HotelsPage - HotelsPage : User Adult Count: 2 User Child Count: 2
+23:19:59.555 [main] INFO  Pages.HotelsPage - HotelsPage : Clicked guests field
+23:19:59.591 [main] INFO  Pages.HotelsPage - HotelsPage : Default number of adults selected : 2
+23:19:59.623 [main] INFO  Pages.HotelsPage - HotelsPage : Default number of child selected : 0
+23:19:59.623 [main] INFO  Pages.HotelsPage - HotelsPage : Waiting for adult error message to be invisible 
+23:19:59.658 [main] INFO  Pages.HotelsPage - HotelsPage : Adult error message is invisible 
+23:19:59.901 [main] INFO  Pages.HotelsPage - HotelsPage : Child Guest Plus Button Clicked 
+23:19:59.901 [main] INFO  Pages.HotelsPage - HotelsPage : Waiting for adult error message to be invisible 
+23:19:59.940 [main] INFO  Pages.HotelsPage - HotelsPage : Adult error message is invisible 
+23:20:00.182 [main] INFO  Pages.HotelsPage - HotelsPage : Child Guest Plus Button Clicked 
+23:20:00.183 [main] INFO  Pages.HotelsPage - HotelsPage : Generating random ages for child/children
+23:20:00.217 [main] INFO  Pages.HotelsPage - HotelsPage : Age generated : 16
+23:20:00.492 [main] INFO  Pages.HotelsPage - HotelsPage : Age generated : 9
+23:20:02.491 [main] INFO  Pages.HotelsPage - HotelsPage : Search hotel button clicked
+23:20:04.376 [main] INFO  Pages.ResultsPage - ResultsPage : clicked number 1 hotel
+23:20:06.168 [main] INFO  Pages.HotelDetailsPage - HotelDetailsPage : number 1 room selected
+]]></system-out>
+    <system-err><![CDATA[1636316388613	geckodriver	INFO	Listening on 127.0.0.1:46085
+1636316389309	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Armagan\\AppData\\Local\\Temp\\rust_mozprofilekBV2uV"
+1636316390750	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Armagan\\AppData\\Local\\Temp\\rust_mozprofilekBV2uV\\search.json.mozlz4", (void 0)))
+1636316392836	Marionette	INFO	Listening on port 52302
+1636316393010	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Kas 07, 2021 11:19:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="More Than 2 Child" classname="ETSTur Hotel Search" time="11.406"/>
+  <testcase name="More Than 6 Adult" classname="ETSTur Hotel Search" time="12.329"/>
 </testsuite>

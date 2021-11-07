@@ -1,8 +1,11 @@
 package Pages;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,6 +14,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.File;
+import java.io.IOException;
+import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Random;
@@ -84,5 +91,18 @@ public class PaymentCardPage {
         logger.log(Level.INFO,this.getClass().getSimpleName()+" :Random CVC generated for card  : "+randomCVCString);
         cardCVC.sendKeys(randomCVCString);
         logger.log(Level.INFO,this.getClass().getSimpleName()+" :Random CVC typed");
+        takeSS();
+    }
+
+    public void takeSS(){
+        File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        logger.log(Level.INFO,this.getClass().getSimpleName()+" : Took screenshot of card page ");
+        SimpleDateFormat sdf1 = new SimpleDateFormat("yyyy.MM.dd HH.mm.ss");
+        Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+        try {
+            FileUtils.copyFile(src,new File(System.getProperty("user.dir")+"/screenshots/cardInfoPage_"+sdf1.format(timestamp)+".jpeg"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

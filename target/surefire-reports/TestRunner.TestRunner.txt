@@ -1,4 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: TestRunner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 54.813 s - in TestRunner.TestRunner
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 42.693 s <<< FAILURE! - in TestRunner.TestRunner
+Search For Hotels Happy Path(ETSTur Hotel Search)  Time elapsed: 18.31 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class StepDefinitions.PaymentInformationStepDefinitions
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .pr-amount-total>div
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARMAGANLENOVO', ip: '192.168.0.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 10176, moz:profile: C:\Users\Armagan\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 74d89f07-1457-4f1b-8bd6-0ff0bdececfc
+*** Element info: {Using=css selector, value=.pr-amount-total>div}
+
